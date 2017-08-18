@@ -14,6 +14,8 @@ def new_euclidean_distances(X, Y = None, Y_norm_squared = None, squared = False)
     return cosine_distances(X,Y)
 
 
+
+
 import sklearn.cluster
 
 sklearn.cluster.k_means_.euclidean_distances = new_euclidean_distances 
