@@ -2,6 +2,7 @@
 -- Here I' ll make stride method work.
 -- ******************* Using Cosine and patch weight average(CDivTable) ******
 -- Does not work at all!
+-- aaa
 
 require 'torch'
 require 'nn'
